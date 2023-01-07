@@ -251,7 +251,12 @@ a las tablas fueron aquellas a las que le agregamos las transacciones explícitas
 Tras ello empezamos a hacer las pruebas correspondientes, pero el primer problema
 que nos encontramos empezó porque todas las pruebas las hacíamos con Microsoft
 Azure, utilizando una base de datos remota y ejecutando todo ahí. Pero en Azure
-es imposible ejecutar las transacciones distribuidas porque
+nos fue imposible ejecutarlas y que procedieran, ya que nosotros al tener el plan 
+estudiantil solo nos es posible crear los servidores, pero no modificarlos al 
+grado de transaccion, ya que esto solo se permite utilizando una instancia simulada
+por parte mismo de Azure, y que para poder a acceder a este tipo de funcionalidad 
+se necesita un plan de pago mayor al que nosotros tenemos de igual forma para poder 
+acceder al MSDTC que no permite el funcionamiento entre SQLServer y Azure. 
 
 por lo que tuvimos que cambiar el trayecto.
 
