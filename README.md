@@ -1,2 +1,2 @@
 # BasesTercerParcial
-Entregas 6 enero.
+Entrega del proyect 2
